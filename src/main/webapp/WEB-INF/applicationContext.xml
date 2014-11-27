@@ -20,7 +20,7 @@
 
 	<bean
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
-		id="emf">
+		id="entityManagerFactory">
 		<property name="packagesToScan" value="br.dougbm.jba.entity" />
 		<property name="dataSource" ref="dataSource" />
 		<property name="jpaProperties">
